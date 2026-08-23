@@ -3,8 +3,8 @@ import { Flame, Sprout, CircleDot, Footprints } from "lucide-react"
 const featured = [
   {
     name: "Acupuntura",
-    image: "/images/hero-acupuntura.png",
-    alt: "Agujas de acupuntura finas colocadas sobre la piel durante una sesión",
+    image: "/images/herramienta-acupuntura.png",
+    alt: "Agujas de acupuntura finas junto a una caña de bambú sobre una superficie verde",
     description:
       "Inserción de agujas muy finas en puntos específicos del cuerpo para restablecer el flujo de energía y estimular la respuesta natural del organismo.",
     benefits: [
@@ -16,8 +16,8 @@ const featured = [
   },
   {
     name: "Digitopuntura",
-    image: "/images/digitopuntura.png",
-    alt: "Manos aplicando presión con el pulgar sobre un punto de acupresión",
+    image: "/images/herramienta-digitopuntura.png",
+    alt: "Herramienta de jade y piedra gua sha para acupresión junto a hojas de bambú",
     description:
       "También llamada acupresión, utiliza la presión de los dedos sobre los mismos puntos que la acupuntura. Es una técnica no invasiva, ideal como autocuidado.",
     benefits: [
@@ -29,8 +29,8 @@ const featured = [
   },
   {
     name: "Auriculoterapia",
-    image: "/images/auriculoterapia.png",
-    alt: "Primer plano de una oreja con pequeñas semillas colocadas en puntos de auriculoterapia",
+    image: "/images/herramienta-auriculoterapia.png",
+    alt: "Semillas y sonda de auriculoterapia sobre un modelo de oreja junto a una caña de bambú",
     description:
       "Estimulación de puntos reflejos situados en el pabellón de la oreja, que se corresponden con distintos órganos y funciones del cuerpo, mediante semillas o pequeñas agujas.",
     benefits: [

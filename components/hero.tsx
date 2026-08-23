@@ -39,8 +39,15 @@ export function Hero() {
         <div className="relative">
           <div className="overflow-hidden rounded-3xl border border-border shadow-sm">
             <img
+              src="/images/bambu-hero.png"
+              alt="Cañas de bambú verde bajo una luz natural suave, símbolo de equilibrio y crecimiento"
+              className="h-full w-full object-cover"
+            />
+          </div>
+          <div className="absolute -bottom-6 -left-6 hidden w-40 overflow-hidden rounded-2xl border border-border shadow-md md:block">
+            <img
               src="/images/hero-acupuntura.png"
-              alt="Sesión de acupuntura con agujas colocadas suavemente sobre la espalda en un ambiente sereno"
+              alt="Sesión de acupuntura con agujas colocadas suavemente sobre la espalda"
               className="h-full w-full object-cover"
             />
           </div>
