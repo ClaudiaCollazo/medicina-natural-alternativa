@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Geist, Fraunces } from 'next/font/google'
+import { WhatsAppButton } from '@/components/whatsapp-button'
 import './globals.css'
 
 const geistSans = Geist({
@@ -54,6 +55,7 @@ export default function RootLayout({
     <html lang="es" className={`bg-background ${geistSans.variable} ${fraunces.variable}`}>
       <body className="font-sans antialiased">
         {children}
+        <WhatsAppButton />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
